@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    margin-left: auto;
+    justify-content: center;
+}
+.tour-cards, .recommended-cards, .activity-cards, .article-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: auto;
+   
+}
+
+.tour-card, .card {
+    width: 30%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.tour-card:hover, .card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 100px 50px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.btn-secondary {
+    background-color: #37c934;
+    color: #ac1818;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-secondary:hover {
+    background-color: #37c934;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer .btn-primary {
+    background-color: #a5cf0d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer .btn-primary:hover {
+    background-color: #ffa500;
+}
+
+
+.navbar {
+    background-color: #940b84;
+    padding: 10px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.banner {
+    background: url('Национальный\ парк\ Ала-Арча.webp') center/cover no-repeat;
+    text-align: center;
+    padding: 400px 200px;
+    color: rgb(83, 7, 175);
+   
+}
+
+.btn-primary {
+    background-color: #d4cb15;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.old-price {
+    color: red;
+    text-decoration: line-through;
+}
+
+.discounted-price {
+    color: black;
+    font-weight: bold;
+}
+/* Сетка для фильтров и туров */
+.container {
+    display: flex;
+    margin: 20px;
+}
+.filters {
+    width: 25%;
+    margin-right: auto; /* Фильтры справа */
+    padding: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.filters h3 {
+    margin-top: 0;
+}
+.filters ul {
+    list-style: none;
+    padding: 0;
+}
+.filters li {
+    margin: 10px 0;
+}
+.tours {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 10px;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.card h3 {
+    margin: 10px 0;
+}
+.card p {
+    margin: 5px 0;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Типы туров</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <ul class="menu">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="tours.html">Типы туров</a></li>
+            <li><a href="story.html">История путешествий</a></li>
+            <li><a href="filter.html">Фильтры</a></li>
+        </ul>
+    </nav>
+      
+</header>
+<main>
+    <h1>Все турпакеты</h1>
+    <p>Выберите подходящий тур по фильтрам ниже:</p>
+
+    <!-- Фильтры -->
+    <section class="filters">
+        <form>
+            <h2>Фильтры</h2>
+            <label for="destination">Место назначения:</label>
+            <select id="destination">
+                <option>Все</option>
+                <option>Озеро Сон-Куль</option>
+                <option>Иссык-Куль</option>
+                <option>Ала-Арча</option>
+                <option>Сусамырская долина</option>
+            </select>
+
+            <section class="filter-section">
+                <label for="price-filter">Цена:</label>
+                <select id="price-filter">
+                    <option value="all">Все</option>
+                    <option value="low">До $500</option>
+                    <option value="medium">От $500 до $1000</option>
+                    <option value="high">Более $1000</option>
+                </select>
+            
+                <label for="duration-filter">Продолжительность:</label>
+                <select id="duration-filter">
+                    <option value="all">Все</option>
+                    <option value="short">До 5 дней</option>
+                    <option value="medium">5-10 дней</option>
+                    <option value="long">Более 10 дней</option>
+                </select>
+            </section>
+
+            <button type="submit">Применить фильтры</button>
+        </form>
+    </section>
+
+    <!-- Карточки туров -->
+    <section class="tour-packages">
+        <div class="card">
+            <img src="Озеро Сон-Куль.webp" alt="Сон-Куль">
+            <h2>Озеро Сон-Куль</h2>
+            <p>3 дня | Кыргызстан</p>
+            <p><del style="color: red;">450$</del> <strong>400$</strong></p>
+            <p>⭐ 4.8 (120 голосов)</p>
+            <p>Даты выезда: 15 янв | 22 янв</p>
+            <a href="tour1.html" target="_blank">Подробнее</a>
+        </div>
+
+        <div class="card">
+            <img src="Горы Тянь-Шаня.webp" alt="Тур 2">
+            <h3>Треккинг в Тянь-Шане</h3>
+            <p>2 дня | Кыргызстан</p>
+            <p><del style="color: red;">350$</del> <strong>300$</strong></p>
+            <p>⭐ 4.7 (85 голосов)</p>
+            <p>Даты выезда: 10 фев | 17 фев</p>
+            <a href="tour2.html" target="_blank">Подробнее</a>
+        </div>
+
+        <div class="card">
+            <img src="Джиппинг.webp" alt="Тур 3">
+            <h3>Сафари в Кыргызстане</h3>
+            <p>5 дней | Кыргызстан</p>
+            <p><del style="color: red;">600$</del> <strong>550$</strong></p>
+            <p>⭐ 4.9 (200 голосов)</p>
+            <p>Даты выезда: 5 мар | 12 мар</p>
+            <a href="tour3.html" target="_blank">Подробнее</a>
+        </div>
+        <div class="card">
+            <img src="Лыжи.webp" alt="Экстремальный тур">
+            <h3>Горнолыжная база Каракол</h3>
+            <p>2 дня | Кыргызстан</p>
+            <p><del style="color: red;">450$</del> <strong>400$</strong></p>
+            <p>⭐ 4.8 (120 голосов)</p>
+            <p>Даты выезда: 15 янв | 22 янв</p>
+            <a href="tour4.html" target="_blank">Подробнее</a>
+        </div>
+    </section>
+</main>
+
+<section class="tours">
+    <h1>Типы туров</h1>
+    <p>Выберите тип тура, который вам по душе.</p>
+
+    <div class="tour-types">
+        <div class="tour-type">
+            <img src="Скалолазание.webp" alt="Культурный тур">
+            <h3>Скалолазание</h3>
+            <p>Для любителей активного отдыха и походов.</p>
+        </div>
+
+        <div class="tour-type">
+            <img src="Парашютный спорт.webp" alt="Культурный тур">
+            <h3>Парашютный спорт</h3>
+            <p>Откройте для себя уникальные пейзажи.</p>
+        </div>
+
+        <div class="tour-type">
+            <img src="Пешеходные экскурсии.webp" alt="Активность 6">
+            <h3>Пешеходные экскурсии</h3>
+            <p>Познакомьтесь с культурой и традициями Центральной Азии.</p>
+        </div>
+
+        <div class="tour-type">
+            <img src="Рафтинг.webp" alt="Активность 3">
+            <h3>Рафтинг</h3>
+            <p>Для тех, кто ищет адреналин и незабываемые впечатления.</p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2024 Туристическая компания. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
