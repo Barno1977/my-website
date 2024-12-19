@@ -64,9 +64,13 @@ footer .btn-primary {
 }
 
 footer .btn-primary:hover {
-    background-color: #ffa500;
+    background-color: #df2727;
 }
 
+footer {
+    background-color: #940b84;
+    padding: 10px;
+}
 
 .navbar {
     background-color: #940b84;
