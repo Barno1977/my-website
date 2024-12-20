@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визитная карточка</title>
+   <style>
+    body{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image:url('images 2.jpg'); background-size: cover;
+        }
+        
+        .business-card {
+            width: 400px;
+            border: 7px solid #6d0892;
+            border-radius: 10px;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            box-shadow: 2px 2px 15px rgba(172, 34, 142, 0.2);
+            background-color: #ffe5f1; /* Фон для визитки */
+            position: relative;
+        }
+
+        
+        .photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 20px;
+            border: 2px solid #e426da;
+        }
+
+        .photo img {
+            width: 100%;
+            height: auto;
+        }
+
+        .info {
+            flex-grow: 1;
+        }
+
+        .name {
+            font-size: 1.6em;
+            font-weight: bold;
+            color: #2e2e2e;
+            margin: 0;
+        }
+
+        .title {
+            font-size: 1.3em;
+            color: #db19cb;
+        }
+
+        .contact {
+            margin-top: 10px;
+            font-size: 1em;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="business-card">
+        <div class="photo">
+            <img src="photo.jpg" alt="Фото">
+        </div>
+        <div class="info">
+            <p class="name">Ishakova Barno</p>
+            <p class="title">Student</p>
+            <p class="contact">WhatsApp: 996776438720</p>
+            <p class="contact">Email: ishakovabarno906@gmail.com</p>
+            <p class="contact">Tokmok, Кыргызстан</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
